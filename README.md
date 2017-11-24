@@ -5,10 +5,11 @@ This repository contains all files used for the data translation phase.
 Overall, 7 datasets were mapped:
 * Transfermarkt (https://www.transfermarkt.de/)
 * DBPedia (http://wiki.dbpedia.org/)
-* JokeCamp: 
-* JokeCamp:
+* JokeCamp: All World Cup Players
+* JokeCamp: Euro 2016
+* JokeCamp: Others
 * Kaggle SoccerDB 
-* OpenFootball 
+* OpenFootball (https://github.com/openfootball/world-cup)
 
 The input and output files can be accessed via OneDrive:
 * Source Datasets: https://1drv.ms/f/s!AnXUcj9hNuULgfhrFmNNl6QzgAOR_g
