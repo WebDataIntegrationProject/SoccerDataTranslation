@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2017r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="target_schema_NEW" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="937" rbx="1309" rby="440"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="clubs" expanded="1">
+										<entry name="club" inpkey="1" expanded="1">
+											<entry name="name" inpkey="2"/>
+											<entry name="country" inpkey="3"/>
+											<entry name="nameOfStadium" inpkey="4"/>
+											<entry name="cityOfStadium" inpkey="5"/>
+											<entry name="stadiumCapacity" inpkey="6"/>
+											<entry name="players" expanded="1">
+												<entry name="player" expanded="1"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\target_schema_NEW.xsd" outputinstance="..\target_schema_NEW.xml" instanceroot="{}clubs"/>
+					</data>
+				</component>
+				<component name="Stadiums" library="text" uid="2" kind="16">
+					<properties/>
+					<view rbx="300" rby="200"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" expanded="1">
+										<entry name="Team" outkey="7"/>
+										<entry name="City" outkey="8"/>
+										<entry name="Stadium" outkey="9"/>
+										<entry name="Capacity" outkey="10"/>
+										<entry name="Country" outkey="11"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" inputinstance="..\OneDrive-2017-10-14\stadiums-with-GPS-coordinates.csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="Stadiums" block="Rows">
+									<field0 name="Team" type="string"/>
+									<field1 name="FDCOUK" type="string"/>
+									<field2 name="City" type="string"/>
+									<field3 name="Stadium" type="string"/>
+									<field4 name="Capacity" type="string"/>
+									<field5 name="Latitude" type="string"/>
+									<field6 name="Longitude" type="string"/>
+									<field7 name="Country" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="4" kind="23">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="18"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="19"/>
+					</targets>
+					<view ltx="575" lty="227" rbx="655" rby="265"/>
+					<data>
+						<valuemap enableDefaultValue="1">
+							<valuemapTable>
+								<entry from="Albania" to="ALB"/>
+								<entry from="Andorra" to="AND"/>
+								<entry from="Austria" to="AUT"/>
+								<entry from="Belarus" to="BLR"/>
+								<entry from="Belgium" to="BEL"/>
+								<entry from="Bosnia and Herzegovina" to="BIH"/>
+								<entry from="Bulgaria" to="BGR"/>
+								<entry from="Crotia" to="HRV"/>
+								<entry from="Cyprus" to="CYP"/>
+								<entry from="Czech Republic" to="CZE"/>
+								<entry from="Denmark" to="DNK"/>
+								<entry from="Estonia" to="EST"/>
+								<entry from="Faroe Islands" to="FRO"/>
+								<entry from="Finland" to="FIN"/>
+								<entry from="France" to="FRA"/>
+								<entry from="Germany" to="DEU"/>
+								<entry from="Gibraltar" to="GIB"/>
+								<entry from="Greece" to="GRC"/>
+								<entry from="Hungary" to="HUN"/>
+								<entry from="Iceland" to="ISL"/>
+								<entry from="Ireland" to="IRL"/>
+								<entry from="Isle of Man" to="IMN"/>
+								<entry from="Italy" to="ITA"/>
+								<entry from="Kosovo" to="XKX"/>
+								<entry from="Latvia" to="LVA"/>
+								<entry from="Liechtenstein" to="LIE"/>
+								<entry from="Lithuania" to="LTU"/>
+								<entry from="Luxembourg" to="LUX"/>
+								<entry from="Macedonia" to="MKD"/>
+								<entry from="Malta" to="MLT"/>
+								<entry from="Moldova" to="MDA"/>
+								<entry from="Monaco" to="MCO"/>
+								<entry from="Montenegro" to="MNE"/>
+								<entry from="Netherlands" to="NLD"/>
+								<entry from="Norway" to="NOR"/>
+								<entry from="Poland" to="POL"/>
+								<entry from="Portugal" to="PRT"/>
+								<entry from="Romania" to="ROU"/>
+								<entry from="Russia" to="RUS"/>
+								<entry from="San Marino" to="SMR"/>
+								<entry from="Serbia" to="SRB"/>
+								<entry from="Slovakia" to="SVK"/>
+								<entry from="Slovenia" to="SVN"/>
+								<entry from="Spain" to="ESP"/>
+								<entry from="Sweden" to="SWE"/>
+								<entry from="Switzerland" to="CHE"/>
+								<entry from="Ukraine" to="UKR"/>
+								<entry from="United Kingdom" to="GBR"/>
+								<entry from="Vatican City" to="VAT"/>
+								<entry from="Yugoslavia" to="RSB"/>
+								<entry from="West Germany" to="DEU"/>
+								<entry from="GER" to="DEU"/>
+								<entry from="England" to="GBR"/>
+								<entry from="Scotland" to="GBR"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="NONE"/>
+						</valuemap>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="1" edgekey="12"/>
+							<edge vertexkey="2" edgekey="13"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="5" edgekey="14"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="4" edgekey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges>
+							<edge vertexkey="6" edgekey="16"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="18" edgekey="20"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="3" edgekey="30"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

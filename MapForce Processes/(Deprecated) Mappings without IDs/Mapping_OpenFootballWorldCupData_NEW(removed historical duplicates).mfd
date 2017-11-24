@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2017r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="9" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="18"/>
+					</targets>
+					<view ltx="428" lty="436" rbx="500" rby="453"/>
+					<data>
+						<constant value="-06-01" datatype="string"/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="20" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="19"/>
+						<datapoint pos="1" key="20"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="21"/>
+					</targets>
+					<view ltx="548" lty="397" rbx="626" rby="453"/>
+				</component>
+				<component name="parse-date" library="core" uid="17" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="22"/>
+						<datapoint pos="1" key="23"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="24"/>
+					</targets>
+					<view ltx="699" lty="426" rbx="781" rby="480"/>
+				</component>
+				<component name="constant" library="core" uid="18" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="13"/>
+					</targets>
+					<view ltx="537" lty="483" rbx="626" rby="500"/>
+					<data>
+						<constant value="[Y]-[M]-[D]" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="13" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="17"/>
+					</targets>
+					<view ltx="633" lty="364" rbx="697" rby="381"/>
+					<data>
+						<constant value="2014" datatype="string"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="12" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="14"/>
+						<datapoint pos="1" key="15"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="16"/>
+					</targets>
+					<view ltx="725" lty="327" rbx="781" rby="381"/>
+				</component>
+				<component name="constant" library="core" uid="53" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="74"/>
+					</targets>
+					<view ltx="514" lty="-11" rbx="557" rby="6"/>
+					<data>
+						<constant value="(" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="56" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="79"/>
+					</targets>
+					<view ltx="667" lty="32" rbx="710" rby="49"/>
+					<data>
+						<constant value=")" datatype="string"/>
+					</data>
+				</component>
+				<component name="substring-after" library="core" uid="52" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="75"/>
+						<datapoint pos="1" key="76"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="77"/>
+					</targets>
+					<view ltx="607" lty="-35" rbx="711" rby="19"/>
+				</component>
+				<component name="constant" library="core" uid="84" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="135"/>
+					</targets>
+					<view ltx="86" lty="602" rbx="191" rby="619"/>
+					<data>
+						<constant value="Côte d&apos;Ivoire" datatype="string"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="83" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="136"/>
+						<datapoint pos="1" key="137"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="138"/>
+					</targets>
+					<view ltx="224" lty="576" rbx="280" rby="630"/>
+				</component>
+				<component name="constant" library="core" uid="85" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="139"/>
+					</targets>
+					<view ltx="205" lty="651" rbx="310" rby="668"/>
+					<data>
+						<constant value="Cote d&apos;Ivoire" datatype="string"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="81" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="140"/>
+						<datapoint pos="1" key="141"/>
+						<datapoint pos="2" key="142"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="143"/>
+					</targets>
+					<view ltx="362" lty="576" rbx="462" rby="649"/>
+				</component>
+				<component name="substring-before" library="core" uid="55" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="80"/>
+						<datapoint pos="1" key="81"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="82"/>
+					</targets>
+					<view ltx="739" lty="-11" rbx="853" rby="43"/>
+				</component>
+				<component name="group-by" library="core" uid="5" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1"/>
+						<datapoint pos="1" key="2"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="3"/>
+						<datapoint pos="1" key="4"/>
+					</targets>
+					<view ltx="667" lty="59" rbx="781" rby="113"/>
+				</component>
+				<component name="mapCountryToCountryCode" library="user" uid="79" kind="19" visible="0" blackbox="0">
+					<view ltx="582" lty="559" rbx="792" rby="610"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="country_playerFile" inpkey="127" componentid="75"/>
+							<entry name="country_LookUpTable" inpkey="128" componentid="76"/>
+							<entry name="countryCode_lookUpTable" inpkey="129" componentid="77"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="result" outkey="130" componentid="71"/>
+						</root>
+					</data>
+				</component>
+				<component name="removeMinus" library="user" uid="35" kind="19" visible="0" blackbox="0">
+					<view ltx="667" lty="263" rbx="768" rby="280"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input" inpkey="59" componentid="30"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="result" outkey="60" componentid="27"/>
+						</root>
+					</data>
+				</component>
+				<component name="removeMinus" library="user" uid="36" kind="19" visible="0" blackbox="0">
+					<view ltx="667" lty="181" rbx="768" rby="198"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input" inpkey="62" componentid="30"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="result" outkey="61" componentid="27"/>
+						</root>
+					</data>
+				</component>
+				<component name="lookUpTableCountryCodes_len3" library="text" uid="86" kind="16">
+					<properties/>
+					<view lty="297" rbx="300" rby="497"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Zeilen" expanded="1">
+										<entry name="country_fullname" outkey="154"/>
+										<entry name="country_code" outkey="155"/>
+										<entry name="FIFA" outkey="162"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" inputinstance="lookUpTableCountryCodes_len3.csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="lookUpTableCountryCodes_len3" block="Zeilen">
+									<field0 name="country_fullname" type="string"/>
+									<field1 name="country_code" type="string"/>
+									<field2 name="FIFA" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="mapFIFACodeToCountryCode" library="user" uid="97" kind="19" visible="0" blackbox="0">
+					<view ltx="761" lty="-271" rbx="971" rby="-220"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="FIFACode_playerFile" inpkey="158" componentid="93"/>
+							<entry name="FIFACode_LookUpTable" inpkey="159" componentid="92"/>
+							<entry name="countryCode_lookUpTable" inpkey="160" componentid="95"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="result" outkey="161" componentid="89"/>
+						</root>
+					</data>
+				</component>
+				<component name="target_schema_NEW_V2" library="xml" uid="57" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1049" lty="-51" rbx="1335" rby="415"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="clubs" expanded="1">
+										<entry name="club" inpkey="89" expanded="1">
+											<entry name="name" inpkey="90"/>
+											<entry name="country" inpkey="91"/>
+											<entry name="players" expanded="1">
+												<entry name="player" inpkey="92" expanded="1">
+													<entry name="fullName" inpkey="93"/>
+													<entry name="nationality" inpkey="94"/>
+													<entry name="shirtNumberOfNationalTeam" inpkey="95"/>
+													<entry name="position" inpkey="96"/>
+													<entry name="caps" inpkey="97"/>
+													<entry name="isInNationalTeam" inpkey="98"/>
+													<entry name="clubMembershipValidAsOf" inpkey="99"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="target_schema_NEW_V2.xsd" outputinstance="target_schema_NEW_V2.xml" instanceroot="{}clubs"/>
+					</data>
+				</component>
+				<component name="group-by" library="core" uid="6" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="10"/>
+						<datapoint pos="1" key="11"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="9"/>
+						<datapoint pos="1" key="12"/>
+					</targets>
+					<view ltx="548" lty="-112" rbx="662" rby="-58"/>
+				</component>
+				<component name="removeOptionalCountryCode" library="user" uid="113" kind="19" visible="0" blackbox="0">
+					<view ltx="870" lty="-97" rbx="971" rby="-80"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input" inpkey="168" componentid="103"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="result" outkey="169" componentid="102"/>
+						</root>
+					</data>
+				</component>
+				<component name="OpenFootballWorldCupData_parsed_NEW(removed historic duplicates)" library="text" uid="2" kind="16">
+					<properties/>
+					<view rbx="300" rby="221"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Zeilen" outkey="6" expanded="1">
+										<entry name="cup_year" outkey="33"/>
+										<entry name="countryName_full" outkey="34"/>
+										<entry name="player_shirtNumber" outkey="35"/>
+										<entry name="player_position" outkey="36"/>
+										<entry name="player_name" outkey="7"/>
+										<entry name="player_caps" outkey="37"/>
+										<entry name="player_club" outkey="38"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" inputinstance="OpenFootballWorldCupData_parsed_NEW(removed historic duplicates).csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator=";" quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="OpenFootballWorldCupData_parsed_NEW(removed historic duplicates)" block="Zeilen">
+									<field0 name="cup_host" type="string"/>
+									<field1 name="cup_year" type="string"/>
+									<field2 name="countryName_full" type="string"/>
+									<field3 name="FIFACountryCode" type="string"/>
+									<field4 name="numberOfPlayers" type="string"/>
+									<field5 name="player_shirtNumber" type="string"/>
+									<field6 name="player_position" type="string"/>
+									<field7 name="player_name" type="string"/>
+									<field8 name="player_caps" type="string"/>
+									<field9 name="player_club" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="92" edgekey="100"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="93" edgekey="101"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="10" edgekey="41"/>
+							<edge vertexkey="1" edgekey="42"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="2" edgekey="43"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="89" edgekey="102"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="75" edgekey="83"/>
+							<edge vertexkey="168" edgekey="170"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="23" edgekey="46"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="98" edgekey="104"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="15" edgekey="48"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="20" edgekey="49"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="22" edgekey="50"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="24">
+						<edges>
+							<edge vertexkey="99" edgekey="105"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="33">
+						<edges>
+							<edge vertexkey="14" edgekey="52"/>
+							<edge vertexkey="19" edgekey="53"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="34">
+						<edges>
+							<edge vertexkey="136" edgekey="144"/>
+							<edge vertexkey="142" edgekey="145"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="35">
+						<edges>
+							<edge vertexkey="62" edgekey="63"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="36">
+						<edges>
+							<edge vertexkey="96" edgekey="107"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="37">
+						<edges>
+							<edge vertexkey="59" edgekey="64"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="38">
+						<edges>
+							<edge vertexkey="11" edgekey="58"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="60">
+						<edges>
+							<edge vertexkey="97" edgekey="108"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="61">
+						<edges>
+							<edge vertexkey="95" edgekey="109"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="74">
+						<edges>
+							<edge vertexkey="76" edgekey="85"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="77">
+						<edges>
+							<edge vertexkey="80" edgekey="86"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="79">
+						<edges>
+							<edge vertexkey="81" edgekey="87"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="82">
+						<edges>
+							<edge vertexkey="158" edgekey="164"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="130">
+						<edges>
+							<edge vertexkey="94" edgekey="149"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="135">
+						<edges>
+							<edge vertexkey="137" edgekey="150"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="138">
+						<edges>
+							<edge vertexkey="140" edgekey="151"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="139">
+						<edges>
+							<edge vertexkey="141" edgekey="152"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="143">
+						<edges>
+							<edge vertexkey="127" edgekey="153"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="154">
+						<edges>
+							<edge vertexkey="128" edgekey="156"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="155">
+						<edges>
+							<edge vertexkey="129" edgekey="157"/>
+							<edge vertexkey="160" edgekey="165"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="161">
+						<edges>
+							<edge vertexkey="91" edgekey="166"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="162">
+						<edges>
+							<edge vertexkey="159" edgekey="167"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="169">
+						<edges>
+							<edge vertexkey="90" edgekey="171"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="removeMinus" library="user" uid="25" editable="1" inline="1" blackbox="0">
+		<properties/>
+		<structure>
+			<children>
+				<component name="number" library="core" uid="29" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="13"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="7"/>
+					</targets>
+					<view ltx="459" lty="361" rbx="526" rby="399"/>
+				</component>
+				<component name="input" library="core" uid="30" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="5"/>
+					</targets>
+					<view ltx="19" lty="236" rbx="100" rby="274"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="input"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="31" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="12"/>
+						<datapoint/>
+						<datapoint pos="2" key="8"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="604" lty="236" rbx="704" rby="309"/>
+				</component>
+				<component name="equal" library="core" uid="32" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="6"/>
+						<datapoint pos="1" key="4"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="11"/>
+					</targets>
+					<view ltx="335" lty="201" rbx="391" rby="255"/>
+				</component>
+				<component name="constant" library="core" uid="33" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="268" lty="257" rbx="312" rby="274"/>
+					<data>
+						<constant value="-" datatype="string"/>
+					</data>
+				</component>
+				<component name="result" library="core" uid="27" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2"/>
+					</sources>
+					<view ltx="1541" lty="229" rbx="1598" rby="267"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="result"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="2" edgekey="14"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="4" edgekey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="6" edgekey="16"/>
+							<edge vertexkey="13" edgekey="17"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="8" edgekey="18"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="12" edgekey="20"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="nameMapping" library="user" uid="37" editable="1" inline="1" blackbox="0">
+		<properties/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="39" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="11"/>
+					</targets>
+					<view ltx="642" lty="334" rbx="680" rby="351"/>
+					<data>
+						<constant value="1" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="position" library="core" uid="40" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="7"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="9"/>
+					</targets>
+					<view ltx="926" lty="301" rbx="998" rby="339"/>
+				</component>
+				<component name="constant" library="core" uid="41" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="15"/>
+					</targets>
+					<view ltx="975" lty="227" rbx="1013" rby="244"/>
+					<data>
+						<constant value="0" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="items-from-till" library="core" uid="42" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2"/>
+						<datapoint pos="1" key="16"/>
+						<datapoint pos="2" key="10"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="4"/>
+					</targets>
+					<view ltx="1118" lty="194" rbx="1229" rby="264"/>
+				</component>
+				<component name="firstName" library="core" uid="43" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="5"/>
+					</sources>
+					<view ltx="1301" lty="223" rbx="1378" rby="261"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="firstName"/>
+					</data>
+				</component>
+				<component name="lastName" library="core" uid="44" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="8"/>
+					</sources>
+					<view ltx="1302" lty="372" rbx="1377" rby="410"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="lastName"/>
+					</data>
+				</component>
+				<component name="fullName" library="core" uid="45" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="17"/>
+					</targets>
+					<view ltx="238" lty="190" rbx="337" rby="228"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="fullName"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="46" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="13"/>
+					</targets>
+					<view ltx="393" lty="227" rbx="436" rby="244"/>
+					<data>
+						<constant value=" " datatype="string"/>
+					</data>
+				</component>
+				<component name="tokenize" library="core" uid="47" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="18"/>
+						<datapoint pos="1" key="14"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="473" lty="194" rbx="563" rby="248"/>
+				</component>
+				<component name="last-items" library="core" uid="48" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="3"/>
+						<datapoint pos="1" key="12"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="728" lty="301" rbx="839" rby="355"/>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="2" edgekey="19"/>
+							<edge vertexkey="3" edgekey="20"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="5" edgekey="21"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="7" edgekey="22"/>
+							<edge vertexkey="8" edgekey="23"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="10" edgekey="24"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="12" edgekey="25"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="14" edgekey="26"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="15">
+						<edges>
+							<edge vertexkey="16" edgekey="27"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="18" edgekey="28"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="mapCountryToCountryCode" library="user" uid="70" editable="1" inline="1" blackbox="0">
+		<properties/>
+		<structure>
+			<children>
+				<component name="result" library="core" uid="71" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="9"/>
+					</sources>
+					<view ltx="1541" lty="100" rbx="1598" rby="138"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="result"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="73" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="3"/>
+						<datapoint pos="1" key="4"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="7"/>
+					</targets>
+					<view ltx="552" lty="13" rbx="652" rby="86"/>
+				</component>
+				<component name="equal" library="core" uid="72" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1"/>
+						<datapoint pos="1" key="5"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2"/>
+					</targets>
+					<view ltx="350" lty="32" rbx="406" rby="86"/>
+				</component>
+				<component name="country_LookUpTable" library="core" uid="76" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="10"/>
+					</targets>
+					<view lty="68" rbx="163" rby="106"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="country_LookUpTable"/>
+					</data>
+				</component>
+				<component name="country_playerFile" library="core" uid="75" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="11"/>
+					</targets>
+					<view rbx="146" rby="38"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="country_playerFile"/>
+					</data>
+				</component>
+				<component name="distinct-values" library="core" uid="74" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="8"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="980" rbx="1081" rby="38"/>
+				</component>
+				<component name="countryCode_lookUpTable" library="core" uid="77" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="12"/>
+					</targets>
+					<view lty="174" rbx="188" rby="212"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="countryCode_lookUpTable"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="2">
+						<edges>
+							<edge vertexkey="3" edgekey="13"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="9" edgekey="14"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="8" edgekey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges>
+							<edge vertexkey="5" edgekey="16"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="1" edgekey="17"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="4" edgekey="18"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="mapFIFACodeToCountryCode" library="user" uid="87" editable="1" inline="1" blackbox="0">
+		<properties/>
+		<structure>
+			<children>
+				<component name="equal" library="core" uid="91" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2"/>
+						<datapoint pos="1" key="6"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="7"/>
+					</targets>
+					<view ltx="359" lty="226" rbx="415" rby="280"/>
+				</component>
+				<component name="distinct-values" library="core" uid="94" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="12"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="9"/>
+					</targets>
+					<view ltx="989" lty="194" rbx="1090" rby="232"/>
+				</component>
+				<component name="FIFACode_LookUpTable" library="core" uid="92" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="5"/>
+					</targets>
+					<view ltx="9" lty="262" rbx="181" rby="300"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="FIFACode_LookUpTable"/>
+					</data>
+				</component>
+				<component name="countryCode_lookUpTable" library="core" uid="95" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="9" lty="368" rbx="197" rby="406"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="countryCode_lookUpTable"/>
+					</data>
+				</component>
+				<component name="result" library="core" uid="89" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="10"/>
+					</sources>
+					<view ltx="1550" lty="294" rbx="1607" rby="332"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="result"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="98" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="20"/>
+					</targets>
+					<view ltx="347" lty="449" rbx="441" rby="466"/>
+					<data>
+						<constant value="kasesahne" datatype="string"/>
+					</data>
+				</component>
+				<component name="FIFACode_playerFile" library="core" uid="93" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="26" lty="183" rbx="181" rby="221"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="FIFACode_playerFile"/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="100" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="21"/>
+						<datapoint pos="1" key="22"/>
+					</sources>
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="479" lty="436" rbx="557" rby="492"/>
+				</component>
+				<component name="if-else" library="core" uid="90" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="8"/>
+						<datapoint pos="1" key="4"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="11"/>
+					</targets>
+					<view ltx="561" lty="207" rbx="661" rby="280"/>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="2" edgekey="13"/>
+							<edge vertexkey="22" edgekey="24"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="4" edgekey="14"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="6" edgekey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="8" edgekey="16"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="10" edgekey="17"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="12" edgekey="18"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="21" edgekey="25"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="removeOptionalCountryCode" library="user" uid="101" editable="1" inline="1" blackbox="0">
+		<properties/>
+		<structure>
+			<children>
+				<component name="result" library="core" uid="102" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1"/>
+					</sources>
+					<view ltx="1541" lty="100" rbx="1598" rby="138"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="result"/>
+					</data>
+				</component>
+				<component name="input" library="core" uid="103" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2"/>
+					</targets>
+					<view ltx="41" lty="100" rbx="122" rby="138"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="input"/>
+					</data>
+				</component>
+				<component name="substring-before" library="core" uid="105" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="3"/>
+						<datapoint pos="1" key="4"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="5"/>
+					</targets>
+					<view ltx="465" lty="254" rbx="579" rby="308"/>
+				</component>
+				<component name="if-else" library="core" uid="110" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="6"/>
+						<datapoint pos="1" key="7"/>
+						<datapoint pos="2" key="8"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="9"/>
+					</targets>
+					<view ltx="744" lty="81" rbx="844" rby="154"/>
+				</component>
+				<component name="contains" library="core" uid="107" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="10"/>
+						<datapoint pos="1" key="11"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="12"/>
+					</targets>
+					<view ltx="242" lty="54" rbx="336" rby="108"/>
+				</component>
+				<component name="constant" library="core" uid="111" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="13"/>
+					</targets>
+					<view ltx="191" lty="231" rbx="237" rby="248"/>
+					<data>
+						<constant value=" (" datatype="string"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="2">
+						<edges>
+							<edge vertexkey="10" edgekey="14"/>
+							<edge vertexkey="3" edgekey="15"/>
+							<edge vertexkey="8" edgekey="16"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="7" edgekey="17"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="1" edgekey="18"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="6" edgekey="19"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="11" edgekey="20"/>
+							<edge vertexkey="4" edgekey="21"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

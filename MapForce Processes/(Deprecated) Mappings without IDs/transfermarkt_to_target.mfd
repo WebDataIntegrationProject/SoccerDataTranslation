@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2017r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="group-by" library="core" uid="5" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="1"/>
+						<datapoint pos="1" key="2"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="3"/>
+						<datapoint pos="1" key="4"/>
+					</targets>
+					<view ltx="419" lty="101" rbx="533" rby="155"/>
+				</component>
+				<component name="constant" library="core" uid="10" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="27"/>
+					</targets>
+					<view ltx="341" lty="489" rbx="379" rby="506"/>
+					<data>
+						<constant value="0" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="not-equal" library="core" uid="14" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="43"/>
+						<datapoint pos="1" key="44"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="47"/>
+					</targets>
+					<view ltx="773" lty="167" rbx="851" rby="221"/>
+				</component>
+				<component name="constant" library="core" uid="15" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="42"/>
+					</targets>
+					<view ltx="706" lty="206" rbx="750" rby="223"/>
+					<data>
+						<constant value="-" datatype="string"/>
+					</data>
+				</component>
+				<component name="distinct-values" library="core" uid="7" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="5"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="571" lty="167" rbx="672" rby="205"/>
+				</component>
+				<component name="constant" library="core" uid="21" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="48"/>
+					</targets>
+					<view ltx="546" lty="501" rbx="584" rby="518"/>
+					<data>
+						<constant value="0" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="not-equal" library="core" uid="20" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="49"/>
+						<datapoint pos="1" key="50"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="51"/>
+					</targets>
+					<view ltx="611" lty="464" rbx="689" rby="518"/>
+				</component>
+				<component name="round-precision" library="core" uid="9" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="24"/>
+						<datapoint pos="1" key="25"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="26"/>
+					</targets>
+					<view ltx="403" lty="452" rbx="513" rby="506"/>
+				</component>
+				<component name="if-else" library="core" uid="22" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="52"/>
+						<datapoint pos="1" key="53"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="54"/>
+					</targets>
+					<view ltx="721" lty="373" rbx="821" rby="446"/>
+				</component>
+				<component name="if-else" library="core" uid="18" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="55"/>
+						<datapoint pos="1" key="56"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="57"/>
+					</targets>
+					<view ltx="904" lty="167" rbx="1004" rby="240"/>
+				</component>
+				<component name="equal" library="core" uid="25" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="58"/>
+						<datapoint pos="1" key="59"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="60"/>
+					</targets>
+					<view ltx="386" lty="564" rbx="442" rby="618"/>
+				</component>
+				<component name="German ISO-31166-1 Alpha-3" library="text" uid="23" kind="16">
+					<properties/>
+					<view ltx="-17" lty="513" rbx="262" rby="713"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" expanded="1">
+										<entry name="Land" outkey="61"/>
+										<entry name="ISO-3" outkey="62"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" inputinstance="..\laendercodes_nur_alpha_3.csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="German ISO-31166-1 Alpha-3" block="Rows">
+									<field0 name="Land" type="string"/>
+									<field1 name="ISO-3" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="27" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="63"/>
+						<datapoint pos="1" key="64"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="65"/>
+					</targets>
+					<view ltx="484" lty="606" rbx="584" rby="679"/>
+				</component>
+				<component name="target_schema_NEW_V2" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1083" lty="134" rbx="1458" rby="563"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="clubs" expanded="1">
+										<entry name="club" inpkey="7" expanded="1">
+											<entry name="name" inpkey="8"/>
+											<entry name="league" inpkey="9"/>
+											<entry name="players" expanded="1">
+												<entry name="player" inpkey="10" expanded="1">
+													<entry name="fullName" inpkey="11"/>
+													<entry name="birthDate" inpkey="12"/>
+													<entry name="nationality" inpkey="13"/>
+													<entry name="height" inpkey="14"/>
+													<entry name="position" inpkey="15"/>
+													<entry name="clubMembershipValidAsOf" inpkey="83"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\target_schema_NEW_V2.xsd" outputinstance="..\target_schema_NEW_V2.xml" instanceroot="{}clubs"/>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="28" kind="23">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="79"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="80"/>
+					</targets>
+					<view ltx="484" lty="373" rbx="564" rby="411"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="Abwehr" to="DF"/>
+								<entry from="Torwart" to="GK"/>
+								<entry from="Sturm" to="FW"/>
+								<entry from="Linker Verteidiger" to="DF"/>
+								<entry from="Defensives Mittelfeld" to="MF"/>
+								<entry from="Mittelfeld" to="MF"/>
+								<entry from="Rechter Verteidiger" to="DF"/>
+								<entry from="Rechtsaußen" to="FW"/>
+								<entry from="Linksaußen" to="FW"/>
+								<entry from="Innenverteidiger" to="DF"/>
+								<entry from="Offensives Mittelfeld" to="MF"/>
+								<entry from="Mittelstürmer" to="FW"/>
+								<entry from="Linkes Mittelfeld" to="MF"/>
+								<entry from="Zentrales Mittelfeld" to="MF"/>
+								<entry from="Rechtes Mittelfeld" to="MF"/>
+								<entry from="Libero" to="DF"/>
+								<entry from="Hängende Spitze" to="FW"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="PlayerClub" library="text" uid="2" kind="16">
+					<properties/>
+					<view ltx="50" lty="101" rbx="262" rby="423"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" outkey="16" expanded="1">
+										<entry name="PLAYER_NAME" outkey="17"/>
+										<entry name="NATIONALITY" outkey="18"/>
+										<entry name="BIRTHDAY" outkey="19"/>
+										<entry name="POSITION" outkey="20"/>
+										<entry name="HEIGHT" outkey="21"/>
+										<entry name="NAME" outkey="22"/>
+										<entry name="LEAGUE" outkey="23"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" inputinstance="..\Data Sets\transfermarkt\transfermarkt.csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="PlayerClub" block="Rows">
+									<field0 name="PLAYER_ID" type="string"/>
+									<field1 name="PLAYER_NAME" type="string"/>
+									<field2 name="NATIONALITY" type="string"/>
+									<field3 name="BIRTHDAY" type="string"/>
+									<field4 name="POSITION" type="string"/>
+									<field5 name="HEIGHT" type="decimal"/>
+									<field6 name="CLUB" type="string"/>
+									<field7 name="AGE" type="string"/>
+									<field8 name="JOINED" type="string"/>
+									<field9 name="ID" type="string"/>
+									<field10 name="NAME" type="string"/>
+									<field11 name="LEAGUE" type="string"/>
+									<field12 name="COUNTRY" type="string"/>
+									<field13 name="ADDRESS" type="string"/>
+									<field14 name="PARENT_TEAM" type="string"/>
+									<field15 name="LATITUDE" type="string"/>
+									<field16 name="LONGITUDE" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="29" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="84"/>
+					</targets>
+					<view ltx="923" lty="549" rbx="1019" rby="566"/>
+					<data>
+						<constant value="2016-05-01" datatype="string"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="7" edgekey="28"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="8" edgekey="29"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="43" edgekey="45"/>
+							<edge vertexkey="56" edgekey="66"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="1" edgekey="31"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="10" edgekey="32"/>
+							<edge vertexkey="11" edgekey="33"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="58" edgekey="67"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="12" edgekey="35"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="79" edgekey="81"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="24" edgekey="37"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges>
+							<edge vertexkey="2" edgekey="38"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="23">
+						<edges>
+							<edge vertexkey="5" edgekey="39"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="26">
+						<edges>
+							<edge vertexkey="49" edgekey="68"/>
+							<edge vertexkey="53" edgekey="69"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="27">
+						<edges>
+							<edge vertexkey="25" edgekey="41"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="42">
+						<edges>
+							<edge vertexkey="44" edgekey="46"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="47">
+						<edges>
+							<edge vertexkey="55" edgekey="70"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="48">
+						<edges>
+							<edge vertexkey="50" edgekey="71"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="51">
+						<edges>
+							<edge vertexkey="52" edgekey="72"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="54">
+						<edges>
+							<edge vertexkey="14" edgekey="73"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="57">
+						<edges>
+							<edge vertexkey="9" edgekey="74"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="60">
+						<edges>
+							<edge vertexkey="63" edgekey="75"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="61">
+						<edges>
+							<edge vertexkey="59" edgekey="76"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="62">
+						<edges>
+							<edge vertexkey="64" edgekey="77"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="65">
+						<edges>
+							<edge vertexkey="13" edgekey="78"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="80">
+						<edges>
+							<edge vertexkey="15" edgekey="82"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="84">
+						<edges>
+							<edge vertexkey="83" edgekey="85"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2017r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="25">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="if-else" library="core" uid="34" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="59"/>
+						<datapoint/>
+						<datapoint pos="2" key="86"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="58"/>
+					</targets>
+					<view ltx="624" lty="308" rbx="724" rby="381"/>
+				</component>
+				<component name="constant" library="core" uid="8" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="875" lty="471" rbx="928" rby="488"/>
+					<data>
+						<constant value="True" datatype="anySimpleType"/>
+					</data>
+				</component>
+				<component name="empty" library="lang" uid="39" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="78"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="79"/>
+					</targets>
+					<view ltx="517" lty="308" rbx="589" rby="346"/>
+				</component>
+				<component name="empty" library="lang" uid="41" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="85"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="84"/>
+					</targets>
+					<view ltx="517" lty="218" rbx="589" rby="256"/>
+				</component>
+				<component name="constant" library="core" uid="17" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="27"/>
+					</targets>
+					<view ltx="624" lty="391" rbx="711" rby="408"/>
+					<data>
+						<constant value="[Y]-[D]-[D]" datatype="string"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="42" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="87"/>
+						<datapoint/>
+						<datapoint pos="2" key="88"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="89"/>
+					</targets>
+					<view ltx="624" lty="218" rbx="724" rby="291"/>
+				</component>
+				<component name="constant" library="core" uid="49" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="137"/>
+					</targets>
+					<view ltx="296" lty="-88" rbx="367" rby="-71"/>
+					<data>
+						<constant value="NONE" datatype="string"/>
+					</data>
+				</component>
+				<component name="not-equal" library="core" uid="48" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="139"/>
+						<datapoint pos="1" key="140"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="141"/>
+					</targets>
+					<view ltx="462" lty="-125" rbx="540" rby="-71"/>
+				</component>
+				<component name="if-else" library="core" uid="46" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="136"/>
+						<datapoint pos="1" key="138"/>
+						<datapoint pos="2" key="134"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="135"/>
+					</targets>
+					<view ltx="587" lty="-88" rbx="687" rby="-15"/>
+				</component>
+				<component name="group-by" library="core" uid="43" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="104"/>
+						<datapoint pos="1" key="107"/>
+					</sources>
+					<targets>
+						<datapoint/>
+						<datapoint pos="1" key="106"/>
+					</targets>
+					<view ltx="725" lty="-47" rbx="839" rby="7"/>
+				</component>
+				<component name="empty" library="lang" uid="38" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="76"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="77"/>
+					</targets>
+					<view ltx="342" lty="419" rbx="414" rby="457"/>
+				</component>
+				<component name="if-else" library="core" uid="32" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="53"/>
+						<datapoint/>
+						<datapoint pos="2" key="90"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="57"/>
+					</targets>
+					<view ltx="440" lty="419" rbx="540" rby="492"/>
+				</component>
+				<component name="group-by" library="core" uid="51" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="151"/>
+						<datapoint pos="1" key="150"/>
+					</sources>
+					<targets>
+						<datapoint/>
+						<datapoint pos="1" key="152"/>
+					</targets>
+					<view ltx="587" lty="438" rbx="701" rby="492"/>
+				</component>
+				<component name="parse-date" library="core" uid="31" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="61"/>
+						<datapoint pos="1" key="62"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="63"/>
+					</targets>
+					<view ltx="757" lty="327" rbx="839" rby="381"/>
+				</component>
+				<component name="group-by" library="core" uid="65" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="156"/>
+						<datapoint pos="1" key="157"/>
+					</sources>
+					<targets>
+						<datapoint/>
+						<datapoint pos="1" key="159"/>
+					</targets>
+					<view ltx="861" lty="327" rbx="975" rby="381"/>
+				</component>
+				<component name="group-by" library="core" uid="10" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="9"/>
+						<datapoint pos="1" key="10"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="11"/>
+						<datapoint pos="1" key="12"/>
+					</targets>
+					<view ltx="789" lty="76" rbx="903" rby="130"/>
+				</component>
+				<component name="group-by" library="core" uid="40" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="80"/>
+						<datapoint pos="1" key="82"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="81"/>
+						<datapoint pos="1" key="83"/>
+					</targets>
+					<view ltx="789" lty="162" rbx="903" rby="216"/>
+				</component>
+				<component name="group-by" library="core" uid="66" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="160"/>
+						<datapoint pos="1" key="161"/>
+					</sources>
+					<targets>
+						<datapoint/>
+						<datapoint pos="1" key="162"/>
+					</targets>
+					<view ltx="814" lty="237" rbx="928" rby="291"/>
+				</component>
+				<component name="target_schema_NEW_V2" library="xml" uid="44" kind="14">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="1126" lty="13" rbx="1428" rby="452"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="clubs" expanded="1">
+										<entry name="club" inpkey="114" expanded="1">
+											<entry name="name" inpkey="115"/>
+											<entry name="country" inpkey="116"/>
+											<entry name="players" expanded="1">
+												<entry name="player" inpkey="117" expanded="1">
+													<entry name="fullName" inpkey="118"/>
+													<entry name="birthDate" inpkey="119"/>
+													<entry name="nationality" inpkey="120"/>
+													<entry name="shirtNumberOfNationalTeam" inpkey="121"/>
+													<entry name="position" inpkey="122"/>
+													<entry name="isInNationalTeam" inpkey="123"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\target_schema_NEW_V2.xsd" inputinstance="..\target_schema_NEW_V2.xml" outputinstance="..\target_schema_NEW_V2.xml" instanceroot="{}clubs"/>
+					</data>
+				</component>
+				<component name="group-by" library="core" uid="67" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="163"/>
+						<datapoint pos="1" key="164"/>
+					</sources>
+					<targets>
+						<datapoint/>
+						<datapoint pos="1" key="165"/>
+					</targets>
+					<view ltx="969" lty="237" rbx="1083" rby="291"/>
+				</component>
+				<component name="all-world-cup-players" library="json" uid="5" kind="31">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-2" lty="-5" rbx="301" rby="358"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="root" expanded="1">
+										<entry name="array" expanded="1">
+											<entry name="item" type="json-item" expanded="1">
+												<entry name="object" outkey="13" expanded="1">
+													<entry name="Competition" type="json-property" expanded="1"/>
+													<entry name="Year" type="json-property" expanded="1"/>
+													<entry name="Team" type="json-property" expanded="1">
+														<entry name="string" outkey="112"/>
+													</entry>
+													<entry name="Number" type="json-property" expanded="1">
+														<entry name="string" outkey="45"/>
+													</entry>
+													<entry name="Position" type="json-property" expanded="1">
+														<entry name="string" outkey="14"/>
+													</entry>
+													<entry name="FullName" type="json-property" expanded="1">
+														<entry name="string" outkey="15"/>
+													</entry>
+													<entry name="Club" type="json-property" expanded="1">
+														<entry name="string" outkey="16"/>
+													</entry>
+													<entry name="ClubCountry" type="json-property" expanded="1">
+														<entry name="string" outkey="17"/>
+													</entry>
+													<entry name="DateOfBirth" type="json-property" expanded="1">
+														<entry name="string" outkey="64"/>
+													</entry>
+													<entry name="IsCaptain" type="json-property" expanded="1"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<json schema="..\all-world-cup-players.schema.json" inputinstance="..\all-world-cup-players.json" outputinstance="..\all-world-cup-players.json"/>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="45" kind="23">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="142"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="143"/>
+					</targets>
+					<view ltx="378" lty="-47" rbx="458" rby="-9"/>
+					<data>
+						<valuemap enableDefaultValue="1">
+							<valuemapTable>
+								<entry from="Albania" to="ALB"/>
+								<entry from="Andorra" to="AND"/>
+								<entry from="Austria" to="AUT"/>
+								<entry from="Belarus" to="BLR"/>
+								<entry from="Belgium" to="BEL"/>
+								<entry from="Bosnia and Herzegovina" to="BIH"/>
+								<entry from="Bulgaria" to="BGR"/>
+								<entry from="Crotia" to="HRV"/>
+								<entry from="Cyprus" to="CYP"/>
+								<entry from="Czech Republic" to="CZE"/>
+								<entry from="Denmark" to="DNK"/>
+								<entry from="Estonia" to="EST"/>
+								<entry from="Faroe Islands" to="FRO"/>
+								<entry from="Finland" to="FIN"/>
+								<entry from="France" to="FRA"/>
+								<entry from="Germany" to="DEU"/>
+								<entry from="Gibraltar" to="GIB"/>
+								<entry from="Greece" to="GRC"/>
+								<entry from="Hungary" to="HUN"/>
+								<entry from="Iceland" to="ISL"/>
+								<entry from="Ireland" to="IRL"/>
+								<entry from="Isle of Man" to="IMN"/>
+								<entry from="Italy" to="ITA"/>
+								<entry from="Kosovo" to="XKX"/>
+								<entry from="Latvia" to="LVA"/>
+								<entry from="Liechtenstein" to="LIE"/>
+								<entry from="Lithuania" to="LTU"/>
+								<entry from="Luxembourg" to="LUX"/>
+								<entry from="Macedonia" to="MKD"/>
+								<entry from="Malta" to="MLT"/>
+								<entry from="Moldova" to="MDA"/>
+								<entry from="Monaco" to="MCO"/>
+								<entry from="Montenegro" to="MNE"/>
+								<entry from="Netherlands" to="NLD"/>
+								<entry from="Norway" to="NOR"/>
+								<entry from="Poland" to="POL"/>
+								<entry from="Portugal" to="PRT"/>
+								<entry from="Romania" to="ROU"/>
+								<entry from="Russia" to="RUS"/>
+								<entry from="San Marino" to="SMR"/>
+								<entry from="Serbia" to="SRB"/>
+								<entry from="Slovakia" to="SVK"/>
+								<entry from="Slovenia" to="SVN"/>
+								<entry from="Spain" to="ESP"/>
+								<entry from="Sweden" to="SWE"/>
+								<entry from="Switzerland" to="CHE"/>
+								<entry from="Ukraine" to="UKR"/>
+								<entry from="United Kingdom" to="GBR"/>
+								<entry from="Vatican City" to="VAT"/>
+								<entry from="Yugoslavia" to="RSB"/>
+								<entry from="West Germany" to="DEU"/>
+								<entry from="GER" to="DEU"/>
+								<entry from="England" to="GBR"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="NONE"/>
+						</valuemap>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="123" edgekey="124"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="114" edgekey="125"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="115" edgekey="126"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="9" edgekey="21"/>
+							<edge vertexkey="80" edgekey="91"/>
+							<edge vertexkey="104" edgekey="108"/>
+							<edge vertexkey="151" edgekey="166"/>
+							<edge vertexkey="156" edgekey="167"/>
+							<edge vertexkey="160" edgekey="168"/>
+							<edge vertexkey="163" edgekey="169"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="14">
+						<edges>
+							<edge vertexkey="161" edgekey="170"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="15">
+						<edges>
+							<edge vertexkey="85" edgekey="92"/>
+							<edge vertexkey="88" edgekey="93"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="10" edgekey="25"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="142" edgekey="144"/>
+							<edge vertexkey="134" edgekey="171"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="27">
+						<edges>
+							<edge vertexkey="62" edgekey="67"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="45">
+						<edges>
+							<edge vertexkey="76" edgekey="94"/>
+							<edge vertexkey="90" edgekey="95"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="57">
+						<edges>
+							<edge vertexkey="150" edgekey="172"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="58">
+						<edges>
+							<edge vertexkey="61" edgekey="72"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="63">
+						<edges>
+							<edge vertexkey="157" edgekey="173"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="64">
+						<edges>
+							<edge vertexkey="86" edgekey="96"/>
+							<edge vertexkey="78" edgekey="97"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="77">
+						<edges>
+							<edge vertexkey="53" edgekey="98"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="79">
+						<edges>
+							<edge vertexkey="59" edgekey="99"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="81">
+						<edges>
+							<edge vertexkey="117" edgekey="130"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="83">
+						<edges>
+							<edge vertexkey="118" edgekey="131"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="84">
+						<edges>
+							<edge vertexkey="87" edgekey="102"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="89">
+						<edges>
+							<edge vertexkey="82" edgekey="103"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="106">
+						<edges>
+							<edge vertexkey="116" edgekey="132"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="112">
+						<edges>
+							<edge vertexkey="164" edgekey="174"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="135">
+						<edges>
+							<edge vertexkey="107" edgekey="145"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="137">
+						<edges>
+							<edge vertexkey="139" edgekey="146"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="141">
+						<edges>
+							<edge vertexkey="136" edgekey="147"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="143">
+						<edges>
+							<edge vertexkey="140" edgekey="148"/>
+							<edge vertexkey="138" edgekey="149"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="152">
+						<edges>
+							<edge vertexkey="121" edgekey="175"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="159">
+						<edges>
+							<edge vertexkey="119" edgekey="176"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="162">
+						<edges>
+							<edge vertexkey="122" edgekey="177"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="165">
+						<edges>
+							<edge vertexkey="120" edgekey="178"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="countrymapping" library="user" uid="55" editable="1" inline="1" blackbox="0">
+		<properties/>
+		<description/>
+		<structure>
+			<children>
+				<component name="result" library="core" uid="56" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="14"/>
+					</sources>
+					<view ltx="1473" lty="100" rbx="1530" rby="138"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="result"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="57" kind="2">
+					<properties/>
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="442" lty="220" rbx="574" rby="237"/>
+					<data>
+						<constant value="OUTSIDE_EUROPE" datatype="string"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="60" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="6"/>
+						<datapoint pos="1" key="10"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="7"/>
+					</targets>
+					<view ltx="651" lty="137" rbx="751" rby="210"/>
+				</component>
+				<component name="constant" library="core" uid="62" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="360" lty="137" rbx="431" rby="154"/>
+					<data>
+						<constant value="NONE" datatype="string"/>
+					</data>
+				</component>
+				<component name="not-equal" library="core" uid="58" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="4"/>
+						<datapoint pos="1" key="11"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="5"/>
+					</targets>
+					<view ltx="526" lty="100" rbx="604" rby="154"/>
+				</component>
+				<component name="group-by" library="core" uid="61" kind="5">
+					<properties/>
+					<sources>
+						<datapoint/>
+						<datapoint pos="1" key="8"/>
+					</sources>
+					<targets>
+						<datapoint/>
+						<datapoint pos="1" key="13"/>
+					</targets>
+					<view ltx="789" lty="178" rbx="903" rby="232"/>
+				</component>
+				<component name="value-map" library="core" uid="59" kind="23">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="9"/>
+					</targets>
+					<view ltx="442" lty="178" rbx="522" rby="216"/>
+					<data>
+						<valuemap enableDefaultValue="1">
+							<valuemapTable>
+								<entry from="Albania" to="ALB"/>
+								<entry from="Andorra" to="AND"/>
+								<entry from="Austria" to="AUT"/>
+								<entry from="Belarus" to="BLR"/>
+								<entry from="Belgium" to="BEL"/>
+								<entry from="Bosnia and Herzegovina" to="BIH"/>
+								<entry from="Bulgaria" to="BGR"/>
+								<entry from="Crotia" to="HRV"/>
+								<entry from="Cyprus" to="CYP"/>
+								<entry from="Czech Republic" to="CZE"/>
+								<entry from="Denmark" to="DNK"/>
+								<entry from="Estonia" to="EST"/>
+								<entry from="Faroe Islands" to="FRO"/>
+								<entry from="Finland" to="FIN"/>
+								<entry from="France" to="FRA"/>
+								<entry from="Germany" to="DEU"/>
+								<entry from="Gibraltar" to="GIB"/>
+								<entry from="Greece" to="GRC"/>
+								<entry from="Hungary" to="HUN"/>
+								<entry from="Iceland" to="ISL"/>
+								<entry from="Ireland" to="IRL"/>
+								<entry from="Isle of Man" to="IMN"/>
+								<entry from="Italy" to="ITA"/>
+								<entry from="Kosovo" to="XKX"/>
+								<entry from="Latvia" to="LVA"/>
+								<entry from="Liechtenstein" to="LIE"/>
+								<entry from="Lithuania" to="LTU"/>
+								<entry from="Luxembourg" to="LUX"/>
+								<entry from="Macedonia" to="MKD"/>
+								<entry from="Malta" to="MLT"/>
+								<entry from="Moldova" to="MDA"/>
+								<entry from="Monaco" to="MCO"/>
+								<entry from="Montenegro" to="MNE"/>
+								<entry from="Netherlands" to="NLD"/>
+								<entry from="Norway" to="NOR"/>
+								<entry from="Poland" to="POL"/>
+								<entry from="Portugal" to="PRT"/>
+								<entry from="Romania" to="ROU"/>
+								<entry from="Russia" to="RUS"/>
+								<entry from="San Marino" to="SMR"/>
+								<entry from="Serbia" to="SRB"/>
+								<entry from="Slovakia" to="SVK"/>
+								<entry from="Slovenia" to="SVN"/>
+								<entry from="Spain" to="ESP"/>
+								<entry from="Sweden" to="SWE"/>
+								<entry from="Switzerland" to="CHE"/>
+								<entry from="Ukraine" to="UKR"/>
+								<entry from="United Kingdom" to="GBR"/>
+								<entry from="Vatican City" to="VAT"/>
+								<entry from="Yugoslavia" to="RSB"/>
+								<entry from="West Germany" to="DEU"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="NONE"/>
+						</valuemap>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="4" edgekey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="6" edgekey="16"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="8" edgekey="17"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="10" edgekey="18"/>
+							<edge vertexkey="11" edgekey="19"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="14" edgekey="20"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

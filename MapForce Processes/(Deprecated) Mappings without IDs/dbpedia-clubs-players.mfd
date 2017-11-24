@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2018 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="25">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="target_schema" library="xml" uid="5" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="827" lty="123" rbx="1183" rby="707"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="clubs" inpkey="23" expanded="1">
+										<entry name="club" inpkey="24" expanded="1">
+											<entry name="name" inpkey="25"/>
+											<entry name="country" inpkey="26"/>
+											<entry name="nameOfStadium" inpkey="27"/>
+											<entry name="cityOfStadium" inpkey="28"/>
+											<entry name="stadiumCapacity" inpkey="29"/>
+											<entry name="league" inpkey="30"/>
+											<entry name="players" inpkey="31" expanded="1">
+												<entry name="player" inpkey="32" expanded="1">
+													<entry name="firstName" inpkey="33"/>
+													<entry name="lastName" inpkey="34"/>
+													<entry name="birthDate" inpkey="106"/>
+													<entry name="birthplace" inpkey="36"/>
+													<entry name="nationality" inpkey="37"/>
+													<entry name="height" inpkey="38"/>
+													<entry name="position" inpkey="39"/>
+													<entry name="clubMembershipValidAsOf" inpkey="40"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\target schema\target_schema.xsd" outputinstance="..\target schema\target_schema.xml" instanceroot="{}clubs"/>
+					</data>
+				</component>
+				<component name="clubsWithPlayers" library="json" uid="6" kind="31">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-6" rbx="321" rby="852"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="root" expanded="1">
+										<entry name="array" outkey="5" expanded="1">
+											<entry name="item" type="json-item" expanded="1">
+												<entry name="object" outkey="6" expanded="1">
+													<entry name="id" type="json-property" expanded="1"/>
+													<entry name="clubLabel" type="json-property" expanded="1">
+														<entry name="string" outkey="7"/>
+													</entry>
+													<entry name="founded" type="json-property" expanded="1"/>
+													<entry name="homepage" type="json-property" expanded="1"/>
+													<entry name="nickName" type="json-property" expanded="1"/>
+													<entry name="leagueLabel" type="json-property" expanded="1">
+														<entry name="string" outkey="8"/>
+													</entry>
+													<entry name="countryLabel" type="json-property" expanded="1">
+														<entry name="string" outkey="9"/>
+													</entry>
+													<entry name="cityLabel" type="json-property" expanded="1">
+														<entry name="string" outkey="10"/>
+													</entry>
+													<entry name="groundLabel" type="json-property" expanded="1">
+														<entry name="string" outkey="11"/>
+													</entry>
+													<entry name="capacity" type="json-property" expanded="1">
+														<entry name="number" outkey="12"/>
+													</entry>
+													<entry name="players" type="json-property" expanded="1">
+														<entry name="array" outkey="13" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" outkey="14" expanded="1">
+																	<entry name="id" type="json-property" expanded="1"/>
+																	<entry name="clubId" type="json-property" expanded="1"/>
+																	<entry name="playerLabel" type="json-property" expanded="1"/>
+																	<entry name="clubMembershipValidAsOf" type="json-property" expanded="1">
+																		<entry name="string" outkey="105"/>
+																	</entry>
+																	<entry name="numberOfMatchesForTheCurrentClub" type="json-property" expanded="1"/>
+																	<entry name="height" type="json-property" expanded="1">
+																		<entry name="number" outkey="16"/>
+																	</entry>
+																	<entry name="homepage" type="json-property" expanded="1"/>
+																	<entry name="birthDate" type="json-property" expanded="1">
+																		<entry name="string" outkey="17"/>
+																	</entry>
+																	<entry name="gender" type="json-property" expanded="1"/>
+																	<entry name="nationality" type="json-property" expanded="1">
+																		<entry name="string" outkey="18"/>
+																	</entry>
+																	<entry name="birthPlace" type="json-property" expanded="1">
+																		<entry name="string" outkey="19"/>
+																	</entry>
+																	<entry name="givenName" type="json-property" expanded="1">
+																		<entry name="string" outkey="20"/>
+																	</entry>
+																	<entry name="surname" type="json-property" expanded="1">
+																		<entry name="string" outkey="21"/>
+																	</entry>
+																	<entry name="position" type="json-property" expanded="1">
+																		<entry name="string" outkey="103"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<json schema="..\dbpedia files\clubsWithPlayers.schema.json" inputinstance="..\dbpedia files\clubsWithPlayers.json" outputinstance="..\dbpedia files\clubsWithPlayersSample.json"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="23" edgekey="47"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="24" edgekey="48"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="25" edgekey="49"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="30" edgekey="50"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="26" edgekey="51"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges>
+							<edge vertexkey="28" edgekey="52"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="27" edgekey="53"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="29" edgekey="54"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="31" edgekey="55"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="14">
+						<edges>
+							<edge vertexkey="32" edgekey="56"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="38" edgekey="58"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="106" edgekey="107"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="37" edgekey="60"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="36" edgekey="61"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="33" edgekey="62"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="34" edgekey="63"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="103">
+						<edges>
+							<edge vertexkey="39" edgekey="104"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="105">
+						<edges>
+							<edge vertexkey="40" edgekey="108"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
