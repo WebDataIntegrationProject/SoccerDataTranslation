@@ -17,6 +17,7 @@ The input and output files can be accessed via OneDrive:
 
 ## MapForce Processes
 Contains all MapForce process files, including some (deprecated) older versions in a separate directory. Also contains additional external files that were used during the mapping.
+
 **NOTE**: The files in the "(Deprecated) Mappings without IDs" folder hold the actual mapping files. The most recent files outside this folder only add IDs to the XMLs created by these older MapForce files.
 
 ## Target Schema
